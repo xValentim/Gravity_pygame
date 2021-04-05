@@ -34,6 +34,7 @@ a2 = G * m1 / d ** 2
 relogio = pygame.time.Clock()
 window = pygame.display.set_mode((largura, altura))
 pygame.display.set_caption('Valentines Game')
+window.fill(gray)
 
 def texto(msg, cor, tam, x, y):
     font = pygame.font.SysFont(None, tam)
@@ -64,11 +65,11 @@ while continua:
     pos_x += velocidade_x
     pos_y += velocidade_y
 
-    window.fill(gray)
-    texto("Velocidade: " + str(velocidade), white, 20, 10, altura - 30)
-    pygame.draw.circle(window, white, (pos_x, pos_y), 5)
+    #window.fill(gray)
+    #texto("Velocidade: " + str(velocidade), white, 20, 10, altura - 30)
+    #pygame.draw.circle(window, white, (pos_x, pos_y), 5)
     pygame.draw.circle(window, red, (pos_x0, pos_y0), 5)
-    #pygame.draw.circle(window, gray, (pos_x, pos_y), 0.9)
+    pygame.draw.circle(window, blue, (pos_x, pos_y), 1)
     relogio.tick(600)
 
     pygame.display.update()
