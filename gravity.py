@@ -24,8 +24,10 @@ m1 = 1
 m2 = 2
 G = 1
 '''
+Gravitação Universal:
 f = G * m1 * m2 / d ** 2
 
+Segunda lei de Newton:
 f = m1 * a1
 
 a1 = G * m2 / d ** 2
