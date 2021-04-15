@@ -1,7 +1,7 @@
 # Gravidade usando pygame
-Simulação de Gravidade:
+Simulação de Gravidade (version_0):
 ![img0](version_0/images/img0.png)
-Órbita na simulação:
+Órbita na simulação (version_0):
 ![img1](version_0/images/orbita.png)
 ## Gravitação universal
 Temos que, de acordo a lei da gravitação universal descrita por Isaac Newton: 
