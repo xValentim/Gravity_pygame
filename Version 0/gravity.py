@@ -67,11 +67,11 @@ while continua:
     pos_x += velocidade_x
     pos_y += velocidade_y
 
-    #window.fill(gray)
+    window.fill(gray)
     #texto("Velocidade: " + str(velocidade), white, 20, 10, altura - 30)
     #pygame.draw.circle(window, white, (pos_x, pos_y), 5)
     pygame.draw.circle(window, red, (pos_x0, pos_y0), 5)
-    pygame.draw.circle(window, blue, (pos_x, pos_y), 1)
+    pygame.draw.circle(window, white, (pos_x, pos_y), 3)
     relogio.tick(600)
 
     pygame.display.update()
